@@ -1,0 +1,34 @@
+{
+  "name": "vite-oklch-to-rgb",
+  "description": "Vite plugin that converts oklch() color notation to RGB",
+  "version": "1.0.0",
+  "author": "Avaray",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://github.com/Avaray/vite-oklch-to-rgb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avaray/vite-oklch-to-rgb.git"
+  },
+  "keywords": [
+    "astro",
+    "build",
+    "color",
+    "colors",
+    "conversion",
+    "convert",
+    "converter",
+    "oklch",
+    "plugin",
+    "rgb",
+    "transform",
+    "vite"
+  ],
+  "dependencies": {
+    "chroma-js": "^3.1.2"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  }
+}
