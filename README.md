@@ -18,7 +18,7 @@ there are still CSS color-mixing functions in generated CSS. I need to fix that.
 
 ```bash
 # Deno
-deno i npm::vite-oklch-to-rgb
+deno i npm:vite-oklch-to-rgb
 
 # Bun
 bun i vite-oklch-to-rgb
