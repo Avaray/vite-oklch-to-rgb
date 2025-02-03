@@ -7,7 +7,7 @@ Can be used in frameworks like [Astro](https://astro.build) or
 Created for projects targeting users who are using older browsers that do not
 support the OKLCH format.
 
-This is solution for projects where you are using framweorks like
+This is solution for projects where you are using frameworks like
 [TailwindCSS](https://tailwindcss.com) or libraries like
 [daisyUI](https://daisyui.com).
 
