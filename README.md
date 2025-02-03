@@ -36,7 +36,7 @@ import { defineConfig } from "vite";
 import oklchToRgb from "vite-oklch-to-rgb";
 
 export default defineConfig({
-  plugins: [oklchToRgb()],
+  plugins: [oklchToRgb],
 });
 ```
 
@@ -48,7 +48,7 @@ import oklchToRgb from "vite-oklch-to-rgb";
 
 export default defineConfig({
   vite: {
-    plugins: [oklchToRgb()],
+    plugins: [oklchToRgb],
   },
 });
 ```
