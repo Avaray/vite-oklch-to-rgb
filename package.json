@@ -1,7 +1,7 @@
 {
   "name": "vite-oklch-to-rgb",
   "description": "Vite plugin that converts oklch() color notation to RGB",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Avaray",
   "license": "MIT",
   "type": "module",
