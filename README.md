@@ -3,12 +3,16 @@
 [Vite](https://vite.dev/) plugin that converts `oklch()` color notation to RGB
 values during build.\
 Can be used in frameworks like [Astro](https://astro.build) or
-[Svelte](https://svelte.dev). Created for projects targeting users who are using
-older browsers that do not support the OKLCH format.
+[Svelte](https://svelte.dev).\
+Created for projects targeting users who are using older browsers that do not
+support the OKLCH format.
 
 This is solution for projects where you are using framweorks like
 [TailwindCSS](https://tailwindcss.com) or libraries like
 [daisyUI](https://daisyui.com).
+
+But keep in mind that this plugin is not perfect. It converts the colors but
+there are still CSS color-mixing functions in generated CSS. I need to fix that.
 
 ## Installation
 
