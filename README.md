@@ -13,7 +13,7 @@ The plugin is compatible with frameworks such as [Astro](https://astro.build) or
 
 ## Plugin status: Work In Progess
 - [ ] Fix `oklchRegex` and test it. Regex should be like `/oklch\(((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*)\)/g`
-- [ ] Replace `color-mix` from oklch/oklab to srgb/hsl
+- [ ] Replace `color-mix` from oklch/oklab to srgb or hsl
 
 
 ## Installation
