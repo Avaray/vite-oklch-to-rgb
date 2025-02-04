@@ -11,8 +11,10 @@ The plugin is compatible with frameworks such as [Astro](https://astro.build) or
 [TailwindCSS](https://tailwindcss.com) or libraries like
 [daisyUI](https://daisyui.com).
 
-But keep in mind that this plugin is not perfect. It converts the colors but
-there are still CSS color-mixing functions in generated CSS. I need to fix that.
+## Plugin status: Work In Progess
+- [ ] Fix `oklchRegex` and test it. Regex should be like `/oklch\(((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*)\)/g`
+- [ ] Replace `color-mix` from oklch/oklab to srgb/hsl
+
 
 ## Installation
 
