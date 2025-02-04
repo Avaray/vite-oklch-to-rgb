@@ -6,10 +6,8 @@ support users on older web browsers that do not yet support OKLCH. You can check
 the current browser compatibility for OKLCH
 [here](https://caniuse.com/?search=oklch).
 
-The plugin is compatible with frameworks such as [Astro](https://astro.build) or
-[Svelte](https://svelte.dev). It is helpful for projects using frameworks like
-[TailwindCSS](https://tailwindcss.com) or libraries like
-[daisyUI](https://daisyui.com).
+The plugin is compatible with frameworks such as [Astro](https://astro.build) or [Svelte](https://svelte.dev).  
+It is helpful for projects using frameworks like [TailwindCSS](https://tailwindcss.com) or libraries like [daisyUI](https://daisyui.com).
 
 ## Plugin status: Work In Progess
 - [ ] Fix `oklchRegex` and test it. Regex should be like `/oklch\(((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*)\)/g`
