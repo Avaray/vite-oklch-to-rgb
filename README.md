@@ -13,8 +13,7 @@ It is helpful for projects using frameworks like [TailwindCSS](https://tailwindc
 - [ ] Fix `oklchRegex` and test it. Regex should be like `/oklch\(((?:[^)(]+|\((?:[^)(]+|\([^)(]*\))*\))*)\)/g`
 - [ ] Replace `color-mix` from oklch/oklab to srgb or hsl
 
-
-## Installation
+<!-- ## Installation
 
 ```bash
 # Deno
@@ -31,7 +30,7 @@ pnpm add vite-oklch-to-rgb
 
 # Yarn
 yarn add vite-oklch-to-rgb
-```
+``` -->
 
 ## Usage in Vite
 
